@@ -60,6 +60,19 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <Button
+            android:id="@+id/cleanBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:fontFamily="sans-serif-black"
+            android:onClick="cleanTextField"
+            android:text="clean text"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
